@@ -37,7 +37,6 @@ const Header = () => {
           <DrawerCloseButton />
           <DrawerHeader>VidoeHub</DrawerHeader>
           <DrawerBody>
-
             <VStack alignItems={'flex-start'}>
               <Button varient={'ghost'} colorScheme={'blue'}>
                 <Link to={'/'}>Home</Link>
@@ -57,9 +56,14 @@ const Header = () => {
             </VStack>
 
             <HStack>
-                
-            </HStack>
+              <Button colorScheme={'blue'} variant={'outline'} m={'3'}>
+                <Link>log IN</Link>
+              </Button>
 
+              <Button colorScheme={'blue'} m={'3'}>
+                <Link>Sign Up</Link>
+              </Button>
+            </HStack>
           </DrawerBody>
         </DrawerContent>
       </Drawer>
